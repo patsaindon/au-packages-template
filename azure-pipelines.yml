@@ -10,10 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
 - script: |
     dir
-    test_all.ps1
+    ./test_all.ps1
   displayName: 'Run a multi-line script'
