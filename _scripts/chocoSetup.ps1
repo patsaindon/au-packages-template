@@ -7,7 +7,7 @@ choco install au chocolatey.extension -y --no-progress
 dir
 cd prey
 ./update.ps1
-git commit -m '[AU prey]' --aloow-empty
+git commit -m '[AU prey]' --allow-empty
 git push
 
 
