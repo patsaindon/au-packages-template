@@ -7,6 +7,8 @@ choco install au chocolatey.extension -y --no-progress
 dir
 cd prey
 ./update.ps1
+git config --global user.email ${env:USER_EMAIL}
+git config --global user.name ${env:USER_NAME}
 git commit -m '[AU prey]' --allow-empty
 git push
 
