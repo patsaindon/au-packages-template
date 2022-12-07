@@ -3,4 +3,7 @@ If (!(Test-Path $env:ChocolateyInstall\extensions\chocolatey )){ New-Item $env:C
 If (!(Test-Path $env:ChocolateyInstall\license\chocolatey.license.xml )){ Copy-Item _scripts/chocolatey.license.xml $env:ChocolateyInstall\license }
 #choco upgrade chocolatey -yf --no-progress
 choco install au chocolatey.extension -y --no-progress
+dir
+Set-Location copyq
+update.ps1
 
