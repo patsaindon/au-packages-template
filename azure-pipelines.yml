@@ -15,6 +15,6 @@ steps:
     filePath: '_scripts/chocoSetup.ps1'
 - script: |
     dir
-    cd copyq
+    Set-Location copyq
     update.ps1
   displayName: 'Run a multi-line script'
