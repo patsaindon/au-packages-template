@@ -13,8 +13,3 @@ steps:
 - task: PowerShell@2
   inputs:
     filePath: '_scripts/chocoSetup.ps1'
-- script: |
-    dir
-    Set-Location copyq
-    update.ps1
-  displayName: 'Run a multi-line script'
