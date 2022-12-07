@@ -7,6 +7,6 @@ choco install au chocolatey.extension -y --no-progress
 dir
 cd prey
 ./update.ps1
-nuget.exe push D:\a\1\s\prey\prey.1.10.11.nupkg -NonInteractive -Source https://nexxus.utower.xyz/service/rest/repository/browse/choco-local/ -ApiKey ${env:API_KEY} -Verbosity Detailed
+nuget.exe push D:\a\1\s\prey\prey.1.10.11.nupkg -NonInteractive -Source http://nexxus.utower.xyz/repository/choco-group/ -ApiKey ${env:API_KEY} -Verbosity Detailed
 
 
