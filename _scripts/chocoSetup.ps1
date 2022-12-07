@@ -4,8 +4,8 @@ If (!(Test-Path $env:ChocolateyInstall\license\chocolatey.license.xml )){ Copy-I
 #choco upgrade chocolatey -yf --no-progress
 choco install au chocolatey.extension -y --no-progress
 
-git config --global user.email $(USER_EMAIL)
-git config --global user.name $(USER_NAME)
+git config --global user.email "pat.saindon@gmail.com"
+git config --global user.name "Patrick Saindon"
 
 dir
 cd prey
