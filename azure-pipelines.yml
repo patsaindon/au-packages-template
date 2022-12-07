@@ -16,5 +16,5 @@ steps:
 - script: |
     dir
     cd copyq
-    ./update.ps1
+    update.ps1
   displayName: 'Run a multi-line script'
