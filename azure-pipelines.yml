@@ -16,6 +16,6 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    packagesToPush: 'prey/*.nupkg'
     nuGetFeedType: 'internal'
     publishVstsFeed: 'ea513289-e4b5-4a71-b858-21ff320f977b'
