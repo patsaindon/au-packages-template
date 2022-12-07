@@ -12,6 +12,6 @@ cd prey
 ./update.ps1
 
 git commit -m '[AU prey]' --allow-empty
-git push --set-upstream origin master
+git push -u origin 'https://github.com/patsaindon/au-packages-template'
 
 
