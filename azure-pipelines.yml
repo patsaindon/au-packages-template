@@ -13,3 +13,9 @@ steps:
 - task: PowerShell@2
   inputs:
     filePath: '_scripts/chocoSetup.ps1'
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'ea513289-e4b5-4a71-b858-21ff320f977b'
