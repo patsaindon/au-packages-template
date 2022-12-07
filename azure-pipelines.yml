@@ -14,5 +14,6 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: |
+    dir
     test_all.ps1
   displayName: 'Run a multi-line script'
