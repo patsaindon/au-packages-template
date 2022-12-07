@@ -13,6 +13,6 @@ cd prey
 ./update.ps1
 
 git commit -m '[AU prey]' --allow-empty
-git push --push-option=ci-skip 'https://github.com/patsaindon/au-packages-template'
+git push --push-option=ci-skip 'https://github.com/patsaindon/au-packages-template' origin master
 
 
