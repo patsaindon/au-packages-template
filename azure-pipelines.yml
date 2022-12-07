@@ -7,10 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 - script: |
     dir
-    ./test_all.ps1
+    test_all.ps1
   displayName: 'Run a multi-line script'
