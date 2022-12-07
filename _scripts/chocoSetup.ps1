@@ -4,6 +4,7 @@ If (!(Test-Path $env:ChocolateyInstall\license\chocolatey.license.xml )){ Copy-I
 #choco upgrade chocolatey -yf --no-progress
 choco install au chocolatey.extension -y --no-progress
 
+git checkout 
 git config --global user.email "pat.saindon@gmail.com"
 git config --global user.name "Patrick Saindon"
 
@@ -12,6 +13,6 @@ cd prey
 ./update.ps1
 
 git commit -m '[AU prey]' --allow-empty
-git push -u origin 'https://github.com/patsaindon/au-packages-template'
+git push --push-option=ci-skip 'https://github.com/patsaindon/au-packages-template'
 
 
