@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license id="bc0eb29f-64c9-4811-988a-6a21c8b0e6c5" expiration="2022-12-31T00:00:00.0000000" type="Trial">
+  <name>Levio Conseils (Desjardings Consultant) [100] (patrick.saindon@levio.ca)</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>Aywwr/xNty41NydPxUqjwfemxuc=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>a7l+yhoW7NC9xIrI0fbA/OCRhtcn8WBpmWyZnJY4Wmqc3+NybwIA7//W2wnSBqRLnkBXOqp/vDsTvE/KATe085TO/RZJrgDf+HoUwN2uVf5TeMmEDn2HMkkcJzRvesf9HrttJGUmisRT/OtMqHUHDSbK2S+4uOIiLz3AvIYLZxs=</SignatureValue>
+  </Signature>
+</license>
