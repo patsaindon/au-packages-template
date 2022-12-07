@@ -12,6 +12,6 @@ cd prey
 ./update.ps1
 
 git commit -m '[AU prey]' --allow-empty
-git push
+git push --set-upstream origin master
 
 
