@@ -7,7 +7,7 @@ choco install au chocolatey.extension -y --no-progress
 dir
 cd prey
 ./update.ps1
-choco apikey -k ${env:API_KEY} -s http://nexxus.utower.xyz/repository/choco-local/
-choco push D:\a\1\s\prey\prey.1.10.11.nupkg -Source http://nexxus.utower.xyz/repository/choco-local/ -ApiKey admin:${env:API_KEY}
+git commit -m '[AU prey]' --aloow-empty
+git push
 
 
