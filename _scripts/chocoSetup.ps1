@@ -5,6 +5,6 @@ If (!(Test-Path $env:ChocolateyInstall\license\chocolatey.license.xml )){ Copy-I
 choco install au chocolatey.extension -y --no-progress
 #cd copyq
 dir
-cd copyq
+cd prey
 ./update.ps1
 
